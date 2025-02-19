@@ -16,7 +16,7 @@ class MyCalc(App):
 
         box_botoes = GridLayout(cols=4, spacing=10, padding=10)
 
-        self.display = Label(text='Bem vindo', font_size='50px')
+        self.display = Label(text='0', font_size='50px')
 
         self.button_zerar = Button(text='C')
         #Adicionando um evento ao botão ZERAR, que irá chamar o método Hello
